@@ -1,6 +1,6 @@
 obj-m += reveng_rtkit.o
 
-KERNEL_ROOT=/lib/modules/5.11.0-49-generic/build
+KERNEL_ROOT=/lib/modules/5.15.0-134-generic/build
 
 modules:
 	@$(MAKE) -C $(KERNEL_ROOT) M=$(shell pwd) modules
